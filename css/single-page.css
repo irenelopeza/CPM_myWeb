@@ -1,0 +1,73 @@
+/* ReqS5 */
+main {       
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2rem;   
+}
+
+/* ReqS6 */
+section:first-letter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5C3D2E;
+}
+article:first-letter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5C3D2E;
+}
+
+/* ReqS9 */
+#contact {
+    background-color: #F6EEC9;
+    border-color: #A67C52;
+    padding: 2em;
+    border-radius: 1.5em;
+}
+
+
+/* ReqS10 */
+section > p {
+    color: #2F6FA3;
+}
+
+/* ReqS11 */ 
+article p {
+    color: #5C3D2E;
+}
+
+/* ReqS12 */
+h2 + p {
+    font-weight: bold;
+}
+
+/* ReqS13 */ 
+nav li {
+    display: inline-block;
+}
+nav a {
+    display: inline-block;
+    padding: 0.6em 1em;
+    margin: 0.2em;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #3A7CA5;
+    border-radius: 5px;
+}
+
+/* ReqS14 */ 
+nav a:hover {
+    background-color: #2F5E87;
+}
+
+ /* ReqS15*/ 
+.diffItems {
+    list-style-type: decimal;
+    list-style-position: inside;
+    line-height: 1.5em;
+    margin-left: 1em;
+}
+
+

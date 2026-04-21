@@ -1,0 +1,148 @@
+<!--ReqH1-->
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="./js/i18n/i18n.js" defer> </script>
+        <!--ReqH2-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="AC Infohub main page">
+        <meta name="author" content="Irene López">
+        <meta name="keywords" content="videogame, Nintendo, Animal Crossing">
+        <title>Animal Crossing InfoHub</title>
+    </head>
+    <body>
+        <!--ReqH3-->
+        <header>
+            <!--ReqH5-->
+            <h1 data-i18n="page.title">Welcome to Animal Crossing InfoHub!</h1>
+
+            <!--ReqI7-->
+            <select id="language-switcher" onchange="switchLanguage(this.value)"> 
+                <option value="en">English</option> 
+                <option value="es">Español</option> 
+            </select>
+            
+        </header>
+        <main>
+
+            <!--ReqH10 ; ReqH12 ; ReqH13-->
+            <figure>
+                <a href="../index.html">
+                    <img src="./resources/images/AC-Emblem.png" alt="Animal Crossing logo"
+                    title="Animal Crossing" width="200" height="100">
+                </a>
+                <!--ReqI1-->
+                <figcaption data-i18n="page.photo.emblem">Official Animal Crossing emblem</figcaption>
+            </figure>
+
+            <!--ReqH8-->
+            <nav>
+                <ul>
+                    <li><a href="#about" data-i18n="navigation.aboutUs">About us</a></li>
+                    <li><a href="#aboutGame" data-i18n="navigation.aboutGame">About Animal Crossing</a></li>
+                    <li><a href="#mission" data-i18n="navigation.mission">Our mission</a></li>
+                    <li><a href="#contact" data-i18n="navigation.contact">Contact us</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="./pages/items.html" data-i18n="navigation.items">Items</a></li>
+                    <li><a href="./pages/villagers.html" data-i18n="navigation.villagers">Villagers</a></li>
+                </ul>
+            </nav>
+            
+
+            <!--ReqH4--> 
+            <section id="about">
+                <h2 data-i18n="sections.aboutUs">About us</h2>
+                <p data-i18n="sections.aboutUs.text">
+                Animal Crossing InfoHub is a small fan project created to share clear and friendly
+                information about the game. We focus on helping players explore characters, items
+                and the charm of the series.
+                </p>
+            </section>
+
+            <!--ReqH6-->
+            <article id="aboutGame">
+                <h2 data-i18n="sections.aboutGame">What is Animal Crossing?</h2>
+                <p data-i18n="sections.aboutGame.text">
+                    Animal Crossing is known for its <em>relaxing atmosphere</em> and its 
+                    <strong>strong focus on community</strong>, making it one of the most beloved 
+                    life-simulation games. Players are encouraged to take things at their own pace, 
+                    enjoy small daily moments, and build meaningful connections with their villagers. 
+                    This gentle approach, combined with its charming visuals and warm tone, has helped 
+                    the series become a comforting space for millions of players around the world.
+                </p>
+                <div>
+                    <p data-i18n="sections.aboutGame.link">
+                        <!--ReqH9-->
+                        Learn more on the 
+                        <a href="https://www.nintendo.com" target="_blank">official Nintendo website</a>.
+                    </p>
+                </div>
+                
+
+            </article>
+
+            <article id="mission">
+                <h2 data-i18n="sections.mission">Our mission</h2>
+                <p data-i18n="sections.mission.text">
+                    Our mission is to provide a welcoming place where players can learn, explore 
+                    and connect with Animal Crossing. We focus on offering useful 
+                    information, easy-to-read guides and a calm environment that reflects the 
+                    relaxing spirit of the games.
+                </p>
+            </article>
+
+            <!-- ReqI8, ReqI9, ReqI10: Buy Game Section -->
+            <section id="buyGame">
+                <h2 data-i18n="sections.buyGame">Buy Animal Crossing</h2>
+
+                <p>
+                    <strong data-i18n="sections.buyGame.currentPrice">Current price:</strong>
+                    <span data-price="59.99">59.99</span>
+                </p>
+
+                <p>
+                    <strong data-i18n="sections.buyGame.discount">Discount code:</strong>
+                    <span data-i18n="sections.buyGame.discountCode">SPRING2026</span>
+                    (<span data-percentage="0.20">0.20</span>
+                    <span data-i18n="sections.buyGame.discountOff">off</span>)
+                </p>
+
+                <p>
+                    <strong data-i18n="sections.buyGame.finalPrice">Final price:</strong>
+                    <span data-number="47.99">47.99</span>
+                </p>
+
+                <p>
+                    <strong data-i18n="sections.buyGame.updated">Updated on:</strong>
+                    <span data-date=""></span>
+                </p>
+
+                <p>
+                    <a href="https://www.nintendo.com" target="_blank" data-i18n="sections.buyGame.link">
+                        Buy now
+                    </a>
+                </p>
+            </section>
+
+
+            <section id="contact">
+                <h2 data-i18n="section.contact">Contact us</h2>
+                <p data-i18n="section.contact.text">
+                    <!--ReqH11--> 
+                    If you have any questions, suggestions or feedback, please 
+                    <a href="./pages/contact.html" target="_self">use this form</a>. 
+                    We are always happy to hear from fellow players.
+                </p>
+
+            </section>
+
+        </main>
+        <footer lang="en">
+            <p data-i18n="footer.rights">&copy; 2026 Animal Crossing InfoHub. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

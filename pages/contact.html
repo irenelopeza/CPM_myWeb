@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="../js/myJS.js" defer></script>
+        <script type="module" src="../js/i18n/i18n.js" defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title data-i18n="contact.pageTitle">Contact - AC InfoHub</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 data-i18n="contact.title">Contact Us</h1>
+        </header>
+
+        <main>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="#contactForm" data-i18n="nav.contactForm">Contact form</a></li>
+                </ul>
+            </nav>
+
+            <section id="contactForm">
+                <h2 data-i18n="contact.subtitle">Send us a message</h2>
+
+                <fieldset>
+                    <legend data-i18n="contact.formLegend">Contact form</legend>
+
+                    <!--ReqH16-->
+                    <form action="mailto:info@acinfohub.com?subject=Contact%20Form" method="post"
+                    onsubmit="return validateForm();" onkeydown="handleKeyDown(event)" novalidate>
+
+                        <!--ReqH17-->
+                        <label for="name" data-i18n="contact.nameLabel">Name:</label>   <!--ReqH19-->
+                        <input type="text" id="name" name="name" pattern="[A-Z][a-z]+" required
+                            oninput="updatePreview(); checkValidityState(this)"
+                            onmouseover="handleMouseOver(this)"
+                            onmouseout="handleMouseOut(this)"
+                            data-i18n-placeholder="contact.namePlaceholder"
+                            placeholder="Your name">
+
+                        <label for="phone" data-i18n="contact.phoneLabel">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required
+                            oninput="updatePreview(); checkValidityState(this)"
+                            onmouseover="handleMouseOver(this)"
+                            onmouseout="handleMouseOut(this)"
+                            data-i18n-placeholder="contact.phonePlaceholder"
+                            placeholder="Your phone number">
+
+                        <label for="email" data-i18n="contact.emailLabel">Email:</label>
+                        <input type="email" id="email" name="email" required
+                            oninput="updatePreview(); checkValidityState(this)"
+                            onmouseover="handleMouseOver(this)"
+                            onmouseout="handleMouseOut(this)"
+                            data-i18n-placeholder="contact.emailPlaceholder"
+                            placeholder="Your email">
+
+                        <label for="message" data-i18n="contact.messageLabel">Message:</label>
+                        <textarea id="message" name="message" required
+                                oninput="updatePreview(); checkValidityState(this)"
+                                onmouseover="handleMouseOver(this)"
+                                onmouseout="handleMouseOut(this)"
+                                data-i18n-placeholder="contact.messagePlaceholder">Type your message here</textarea>
+
+
+                        <!--ReqH20(checkbox)-->
+                        <fieldset>
+                            <legend data-i18n="contact.interestsLegend">Interests</legend>
+
+                            <input type="checkbox" id="Fossil" name="Interests" value="Fossil">
+                            <label for="Fossil" data-i18n="contact.interest.fossil">Fossil hunting</label>
+
+                            <input type="checkbox" id="Island" name="Interests" value="Island">
+                            <label for="Island" data-i18n="contact.interest.island">Island decoration</label>
+
+                            <input type="checkbox" id="Talking" name="Interests" value="Talking">
+                            <label for="Talking" data-i18n="contact.interest.talking">Talking to villagers</label>
+                        </fieldset>
+
+                        <!--ReqH20(radio)-->
+                        <fieldset>
+                            <legend data-i18n="contact.hearLegend">How did you hear about us?</legend>
+
+                            <input type="radio" id="referral" name="referral" value="referral">
+                            <label for="referral" data-i18n="contact.hear.referral">Referral</label>
+
+                            <input type="radio" id="internet" name="referral" value="internet">
+                            <label for="internet" data-i18n="contact.hear.internet">Internet</label>
+
+                            <input type="radio" id="players" name="referral" value="players">
+                            <label for="players" data-i18n="contact.hear.players">Fellow players</label>
+                        </fieldset>
+
+                        <!--ReqH20(optgroup)-->
+                        <label for="category" data-i18n="contact.versionLabel">Version of the game you own:</label>
+                        <select id="category" name="category">
+                            <optgroup label="Most popular" data-i18n="contact.versionGroup.popular">
+                                <option value="wildWorld" data-i18n="contact.version.wildWorld">Wild World</option>
+                                <option value="newLeaf" data-i18n="contact.version.newLeaf">New Leaf</option>
+                                <option value="newHorizons" data-i18n="contact.version.newHorizons">New Horizons</option>
+                            </optgroup>
+                            <optgroup label="Others" data-i18n="contact.versionGroup.others">
+                                <option value="2004" data-i18n="contact.version.2004">2004's version</option>
+                                <option value="city" data-i18n="contact.version.city">Let's go to the city</option>
+                                <option value="designer" data-i18n="contact.version.designer">Happy Home Designer</option>
+                                <option value="amiibo" data-i18n="contact.version.amiibo">amiibo Festival</option>
+                            </optgroup>
+                        </select>
+
+                        <!-- ReqJ5 -->
+                        <div id="error-box" class="error-box"></div>
+
+                        <!--ReqH18--> 
+                        <button class="btn" id="submit" type="submit" data-i18n="contact.sendBtn">Send message</button>
+                        <button class="btn" type="reset" data-i18n="contact.resetBtn">Reset</button>
+
+                    </form>
+                </fieldset>
+            </section>
+
+            <!-- ReqJ2 -->
+             <section id="preview">
+                <h2 data-i18n="contact.previewTitle">Contact Preview</h2>
+                <div id="preview-content">
+                    <p data-i18n="contact.previewPlaceholder">Form preview will appear here.</p>
+                </div>
+             </section>
+
+        </main>
+
+        <footer lang="en">
+            <p data-i18n="footer.rights">&copy; 2026 AC InfoHub. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+/* ReqS16 */
+table caption {
+    caption-side: top;
+    font-weight: bold;
+    padding: 0.4em;
+    color: #5C3D2E;
+    text-align: center;
+    background-color: #F6F0D8;
+    border-radius: 0.5em;
+}

@@ -1,0 +1,364 @@
+{
+    "en": {
+
+        "page.title": "Welcome to Animal Crossing InfoHub!",
+
+        "page.photo.emblem": "Official Animal Crossing emblem",
+
+        "navigation.aboutUs": "About us",
+        "navigation.aboutGame": "About Animal Crossing",
+        "navigation.mission": "Our mission",
+        "navigation.contact": "Contact us",
+        "navigation.items": "Items",
+        "navigation.villagers": "Villagers",
+
+        "sections.aboutUs": "About us",
+        "sections.aboutUs.text": "Animal Crossing InfoHub is a small fan project created to share clear and friendly information about the game. We focus on helping players explore characters, items and the charm of the series.",
+
+        "sections.aboutGame": "What is Animal Crossing?",
+        "sections.aboutGame.text": "Animal Crossing is known for its <em>relaxing atmosphere</em> and its <strong>strong focus on community</strong>, making it one of the most beloved life-simulation games. Players are encouraged to take things at their own pace, enjoy small daily moments, and build meaningful connections with their villagers. This gentle approach, combined with its charming visuals and warm tone, has helped the series become a comforting space for millions of players around the world.",
+        "sections.aboutGame.link": "Learn more on the <a href='https://www.nintendo.com' target='_blank'>official Nintendo website</a>",
+
+        "sections.mission": "Our mission",
+        "sections.mission.text": "Our mission is to provide a welcoming place where players can learn, explore and connect with Animal Crossing. We focus on offering useful information, easy-to-read guides and a calm environment that reflects the relaxing spirit of the games.",
+
+        "section.contact": "Contact us",
+        "section.contact.text": "If you have any questions, suggestions or feedback, please <a href='./pages/contact.html' target='_self'>use this form</a>. We are always happy to hear from fellow players.",
+
+        "footer.rights": "&copy; 2026 Animal Crossing InfoHub. All rights reserved.",
+
+        "sections.buyGame": "Buy Animal Crossing",
+        "sections.buyGame.currentPrice": "Current price:",
+        "sections.buyGame.discount": "Discount code:",
+        "sections.buyGame.discountCode": "ACIH-SPRING2026",
+        "sections.buyGame.discountOff": "off",
+        "sections.buyGame.finalPrice": "Final price:",
+        "sections.buyGame.updated": "Updated on:",
+        "sections.buyGame.link": "Buy now",
+
+
+
+
+
+
+
+        "contact.pageTitle": "Contact - AC InfoHub",
+        "contact.title": "Contact Us",
+        "nav.home": "Home",
+        "nav.contactForm": "Contact form",
+
+        "contact.subtitle": "Send us a message",
+        "contact.formLegend": "Contact form",
+
+        "contact.nameLabel": "Name:",
+        "contact.namePlaceholder": "Your name",
+
+        "contact.phoneLabel": "Phone:",
+        "contact.phonePlaceholder": "Your phone number",
+
+        "contact.emailLabel": "Email:",
+        "contact.emailPlaceholder": "Your email",
+
+        "contact.messageLabel": "Message:",
+        "contact.messagePlaceholder": "Type your message here",
+
+        "contact.interestsLegend": "Interests",
+        "contact.interest.fossil": "Fossil hunting",
+        "contact.interest.island": "Island decoration",
+        "contact.interest.talking": "Talking to villagers",
+
+        "contact.hearLegend": "How did you hear about us?",
+        "contact.hear.referral": "Referral",
+        "contact.hear.internet": "Internet",
+        "contact.hear.players": "Fellow players",
+
+        "contact.versionLabel": "Version of the game you own:",
+        "contact.versionGroup.popular": "Most popular",
+        "contact.versionGroup.others": "Others",
+
+        "contact.version.wildWorld": "Wild World",
+        "contact.version.newLeaf": "New Leaf",
+        "contact.version.newHorizons": "New Horizons",
+        "contact.version.2004": "2004's version",
+        "contact.version.city": "Let's go to the city",
+        "contact.version.designer": "Happy Home Designer",
+        "contact.version.amiibo": "amiibo Festival",
+
+        "contact.sendBtn": "Send message",
+        "contact.resetBtn": "Reset",
+
+        "contact.previewTitle": "Contact Preview",
+        "contact.previewPlaceholder": "Form preview will appear here.",
+
+
+
+
+
+
+
+
+
+        "items.pageTitle": "Items - Animal Crossing InfoHub",
+        "items.title": "Items in Animal Crossing",
+
+        "items.nav.what": "What are items?",
+        "items.nav.crafting": "Crafting system",
+        "items.nav.categories": "Item categories",
+
+        "items.what.title": "What are items?",
+        "items.what.text": "In Animal Crossing, an <dfn>item</dfn> refers to any object that can be stored in the inventory, displayed in a house or placed around the island.",
+        "items.what.imgAlt": "Froggy chair item from Animal Crossing",
+        "items.what.figcaption": "A froggy chair crafted by a player.",
+
+        "items.crafting.title": "Crafting system",
+        "items.crafting.text1": "Many items are created through the crafting system. Each craftable object has an internal identifier, such as <code>ftr_wooden_table_01</code>, which the game uses to manage variations and recipes.",
+        "items.crafting.text2": "Crafting was introduced to give players more freedom and creativity in shaping their island and making it more themselves. — Nintendo Developer Interview",
+
+        "items.categories.title": "Item categories",
+        "items.categories.text": "Items in the game are usually grouped into different categories depending on their purpose and use. Below is a simple list of common item types:",
+
+        "items.categories.furniture": "Furniture",
+        "items.categories.tools": "Tools",
+        "items.categories.clothing": "Clothing",
+        "items.categories.materials": "Materials",
+        "items.categories.bugs": "Bugs",
+        "items.categories.fishes": "Fishes",
+        "items.categories.sea": "Sea creatures",
+        "items.categories.flowers": "Flowers",
+        "items.categories.fossils": "Fossils",
+
+        "items.contact.title": "Contact us",
+        "items.contact.text": "If you have any questions, suggestions or feedback, please <a href='contact.html' target='_self'>use this form</a>. We are always happy to hear from fellow players.",
+        "items.contact.link": "use this form",
+
+
+
+
+
+
+
+
+
+
+        "villagers.pageTitle": "Villagers - Animal Crossing InfoHub",
+        "villagers.title": "Meet the Villagers",
+
+        "villagers.imgAlt": "Some villagers from the game",
+        "villagers.figcaption": "Some villagers from the game.",
+
+        "villagers.nav.about": "About villagers",
+        "villagers.nav.personalities": "Personality types",
+        "villagers.nav.moving": "How does a villager move to your island?",
+
+        "villagers.about.title": "About villagers",
+        "villagers.about.text": "Villagers are the friendly characters who live on your island. Each one has a unique appearance, personality and way of interacting with the player, helping create the warm and welcoming atmosphere that defines Animal Crossing.",
+
+        "villagers.personalities.title": "Personality types",
+        "villagers.personalities.text": "Every villager belongs to one of several personality groups. These personalities influence their dialogue, hobbies and daily behaviour. For example, a <dfn>Peppy</dfn> villager is energetic and cheerful, while a <dfn>Lazy</dfn> villager is relaxed and often talks about food or naps.",
+
+        "villagers.table.caption": "Some villagers from the game",
+        "villagers.table.species": "Species",
+        "villagers.table.examples": "Example Villagers",
+        "villagers.table.name": "Name",
+        "villagers.table.personality": "Personality",
+
+        "villagers.table.cat": "Cat",
+        "villagers.table.rosie": "Rosie",
+        "villagers.table.peppy": "Peppy",
+
+        "villagers.table.dog": "Dog",
+        "villagers.table.goldie": "Goldie",
+        "villagers.table.normal": "Normal",
+
+        "villagers.table.octopus": "Octopus",
+        "villagers.table.marina": "Marina",
+
+        "villagers.moving.title": "How does a villager move to your island?",
+        "villagers.moving.text": "A villager can move to your island in several ways. The most common method is meeting them on a mystery island and inviting them to live with you. They may also appear at your campsite, where you can talk to them and convince them to stay. Finally, villagers can move in through the housing plots you place, which allows new residents to arrive automatically over time."
+
+
+    },
+
+
+
+
+
+
+
+
+
+    "es": {
+
+        "page.title": "¡Bienvenido a Animal Crossing InfoHub!",
+
+        "page.photo.emblem": "Emblema oficial de Animal Crossing",
+
+        "navigation.aboutUs": "Sobre nosotros",
+        "navigation.aboutGame": "Sobre Animal Crossing",
+        "navigation.mission": "Nuestra misión",
+        "navigation.contact": "Contáctanos",
+        "navigation.items": "Objetos",
+        "navigation.villagers": "Vecinos",
+
+        "sections.aboutUs": "Sobre nosotros",
+        "sections.aboutUs.text": "Animal Crossing InfoHub es un pequeño proyecto de fans creado para compartir información clara y cercana sobre el juego. Nos centramos en ayudar a los jugadores a descubrir personajes, objetos y el encanto de la saga.",
+
+        "sections.aboutGame": "¿Qué es Animal Crossing?",
+        "sections.aboutGame.text": "Animal Crossing es conocido por su <em>atmósfera relajante</em> y su <strong>gran enfoque en la comunidad</strong>, lo que lo convierte en uno de los juegos de simulación de vida más queridos. Se anima a los jugadores a tomarse las cosas con calma, disfrutar de los pequeños momentos diarios y construir conexiones significativas con sus vecinos. Este enfoque amable, combinado con sus encantadores gráficos y su tono cálido, ha ayudado a que la saga se convierta en un espacio reconfortante para millones de jugadores en todo el mundo.",
+        "sections.aboutGame.link": "Más información en la <a href='https://www.nintendo.com' target='_blank'>web oficial de Nintendo</a>",
+
+        "sections.mission": "Nuestra misión",
+        "sections.mission.text": "Nuestra misión es ofrecer un lugar acogedor donde los jugadores puedan aprender, explorar y conectar con Animal Crossing. Nos centramos en proporcionar información útil, guías fáciles de leer y un ambiente tranquilo que refleje el espíritu relajante de los juegos.",
+
+        "section.contact": "Contáctanos",
+        "section.contact.text": "Si tienes preguntas, sugerencias o comentarios, por favor <a href='./pages/contact.html' target='_self'>usa este formulario</a>. Siempre nos alegra escuchar a otros jugadores.",
+
+        "copyright": "&copy; 2026 Animal Crossing InfoHub. Todos los derechos reservados.",
+
+        "sections.buyGame": "Comprar Animal Crossing",
+        "sections.buyGame.currentPrice": "Precio actual:",
+        "sections.buyGame.discount": "Código de descuento:",
+        "sections.buyGame.discountCode": "ACIH-SPRING2026",
+        "sections.buyGame.discountOff": "de descuento",
+        "sections.buyGame.finalPrice": "Precio final:",
+        "sections.buyGame.updated": "Actualizado el:",
+        "sections.buyGame.link": "Comprar ahora",
+
+
+
+
+
+
+        "contact.pageTitle": "Contacto - AC InfoHub",
+        "contact.title": "Contáctanos",
+        "nav.home": "Inicio",
+        "nav.contactForm": "Formulario de contacto",
+
+        "contact.subtitle": "Envíanos un mensaje",
+        "contact.formLegend": "Formulario de contacto",
+
+        "contact.nameLabel": "Nombre:",
+        "contact.namePlaceholder": "Tu nombre",
+
+        "contact.phoneLabel": "Teléfono:",
+        "contact.phonePlaceholder": "Tu número de teléfono",
+
+        "contact.emailLabel": "Correo electrónico:",
+        "contact.emailPlaceholder": "Tu correo electrónico",
+
+        "contact.messageLabel": "Mensaje:",
+        "contact.messagePlaceholder": "Escribe tu mensaje aquí",
+
+        "contact.interestsLegend": "Intereses",
+        "contact.interest.fossil": "Buscar fósiles",
+        "contact.interest.island": "Decoración de la isla",
+        "contact.interest.talking": "Hablar con los vecinos",
+
+        "contact.hearLegend": "¿Cómo nos conociste?",
+        "contact.hear.referral": "Recomendación",
+        "contact.hear.internet": "Internet",
+        "contact.hear.players": "Otros jugadores",
+
+        "contact.versionLabel": "Versión del juego que tienes:",
+        "contact.versionGroup.popular": "Más populares",
+        "contact.versionGroup.others": "Otras",
+
+        "contact.version.wildWorld": "Wild World",
+        "contact.version.newLeaf": "New Leaf",
+        "contact.version.newHorizons": "New Horizons",
+        "contact.version.2004": "Versión de 2004",
+        "contact.version.city": "Vamos a la ciudad",
+        "contact.version.designer": "Happy Home Designer",
+        "contact.version.amiibo": "amiibo Festival",
+
+        "contact.sendBtn": "Enviar mensaje",
+        "contact.resetBtn": "Restablecer",
+
+        "contact.previewTitle": "Vista previa del contacto",
+        "contact.previewPlaceholder": "La vista previa del formulario aparecerá aquí.",
+
+        "footer.rights": "© 2026 AC InfoHub. Todos los derechos reservados.",
+
+
+
+
+
+
+
+        "items.pageTitle": "Objetos - Animal Crossing InfoHub",
+        "items.title": "Objetos en Animal Crossing",
+
+        "items.nav.what": "¿Qué son los objetos?",
+        "items.nav.crafting": "Sistema de creación",
+        "items.nav.categories": "Categorías de objetos",
+
+        "items.what.title": "¿Qué son los objetos?",
+        "items.what.text": "En Animal Crossing, un <dfn>objeto</dfn> se refiere a cualquier elemento que pueda guardarse en el inventario, colocarse en una casa o situarse alrededor de la isla.",
+        "items.what.imgAlt": "Silla rana de Animal Crossing",
+        "items.what.figcaption": "Una silla rana creada por un jugador.",
+
+        "items.crafting.title": "Sistema de creación",
+        "items.crafting.text1": "Muchos objetos se crean mediante el sistema de creación. Cada objeto fabricable tiene un identificador interno, como <code>ftr_wooden_table_01</code>, que el juego utiliza para gestionar variaciones y recetas.",
+        "items.crafting.text2": "El sistema de creación se introdujo para dar a los jugadores más libertad y creatividad al diseñar su isla y hacerla más personal. — Entrevista a desarrolladores de Nintendo",
+
+        "items.categories.title": "Categorías de objetos",
+        "items.categories.text": "Los objetos del juego suelen agruparse en diferentes categorías según su propósito y uso. A continuación se muestra una lista sencilla de tipos de objetos comunes:",
+
+        "items.categories.furniture": "Muebles",
+        "items.categories.tools": "Herramientas",
+        "items.categories.clothing": "Ropa",
+        "items.categories.materials": "Materiales",
+        "items.categories.bugs": "Bichos",
+        "items.categories.fishes": "Peces",
+        "items.categories.sea": "Criaturas marinas",
+        "items.categories.flowers": "Flores",
+        "items.categories.fossils": "Fósiles",
+
+        "items.contact.title": "Contáctanos",
+        "items.contact.text": "Si tienes preguntas, sugerencias o comentarios, por favor <a href='contact.html' target='_self'>usa este formulario</a>. Siempre nos alegra escuchar a otros jugadores.",
+        "items.contact.link": "usa este formulario",
+
+
+
+
+
+
+
+        "villagers.pageTitle": "Vecinos - Animal Crossing InfoHub",
+        "villagers.title": "Conoce a los vecinos",
+
+        "villagers.imgAlt": "Algunos vecinos del juego",
+        "villagers.figcaption": "Algunos vecinos del juego.",
+
+        "villagers.nav.about": "Sobre los vecinos",
+        "villagers.nav.personalities": "Tipos de personalidad",
+        "villagers.nav.moving": "¿Cómo se muda un vecino a tu isla?",
+
+        "villagers.about.title": "Sobre los vecinos",
+        "villagers.about.text": "Los vecinos son los personajes amistosos que viven en tu isla. Cada uno tiene una apariencia, personalidad y forma de interactuar únicas, ayudando a crear el ambiente cálido y acogedor que define Animal Crossing.",
+
+        "villagers.personalities.title": "Tipos de personalidad",
+        "villagers.personalities.text": "Cada vecino pertenece a uno de varios grupos de personalidad. Estas personalidades influyen en su diálogo, aficiones y comportamiento diario. Por ejemplo, un vecino <dfn>Vivaracho</dfn> es enérgico y alegre, mientras que un vecino <dfn>Vago</dfn> es relajado y suele hablar de comida o siestas.",
+
+        "villagers.table.caption": "Algunos vecinos del juego",
+        "villagers.table.species": "Especie",
+        "villagers.table.examples": "Vecinos de ejemplo",
+        "villagers.table.name": "Nombre",
+        "villagers.table.personality": "Personalidad",
+
+        "villagers.table.cat": "Gato",
+        "villagers.table.rosie": "Rosita",
+        "villagers.table.peppy": "Vivaracha",
+
+        "villagers.table.dog": "Perro",
+        "villagers.table.goldie": "Canela",
+        "villagers.table.normal": "Normal",
+
+        "villagers.table.octopus": "Pulpo",
+        "villagers.table.marina": "Marina",
+
+        "villagers.moving.title": "¿Cómo se muda un vecino a tu isla?",
+        "villagers.moving.text": "Un vecino puede mudarse a tu isla de varias maneras. El método más común es encontrarlo en una isla misteriosa e invitarlo a vivir contigo. También pueden aparecer en tu campamento, donde puedes hablar con ellos y convencerlos de quedarse. Finalmente, los vecinos pueden mudarse mediante las parcelas de vivienda que coloques, lo que permite que nuevos residentes lleguen automáticamente con el tiempo."
+
+    }
+}
