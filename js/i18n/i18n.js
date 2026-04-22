@@ -102,7 +102,7 @@ function switchLanguage(locale) {
         footer.setAttribute("lang", locale);
     }
 } 
-switchLanguage('en'); // Default to eng on initial load
+//switchLanguage('en'); // Default to eng on initial load
 
 // Load translation file
 /* ReqI2 */
