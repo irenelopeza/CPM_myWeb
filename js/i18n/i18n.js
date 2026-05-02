@@ -109,6 +109,13 @@ function switchLanguage(locale) {
     if (footer) {
         footer.setAttribute("lang", locale);
     }
+
+    document.querySelectorAll("[data-i18n-label]").forEach(el => {
+    const key = el.getAttribute("data-i18n-label");
+    if (translations[locale][key]) {
+        el.label = translations[locale][key];
+    }
+});
 } 
 //switchLanguage('en'); // Default to eng on initial load
 
