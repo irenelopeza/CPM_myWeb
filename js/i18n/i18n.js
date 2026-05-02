@@ -63,23 +63,49 @@ function applyTranslations(locale) {
     console.debug('i18n: translatable elements or language control  — initializing.'); 
  
     // Load translation file 
-    /* ReqI6 */ 
-    fetch(new URL('./js/i18n/translations.json', document.baseURI)) 
-        .then(response => response.json()) 
-        .then(data => { 
+
+    const path = new URL("./", window.location.href).pathname;
+    console.log(path);
+
+    if (path == "/CPM_myWeb/" || path == "/CPM_myWeb/pages/")
+    {
+        fetch(new URL('/CPM_myWeb/js/i18n/translations.json', document.baseURI)) 
+            .then(response => response.json()) 
+            .then(data => { 
+        
+                translations = data; 
+        
+                // Retrieve saved language or default to English 
+                const savedLanguage = 
+                    localStorage.getItem('preferredLanguage') || 'en'; 
+        
+                switchLanguage(savedLanguage); 
+            }) 
+            .catch(error => { 
+                console.error('Failed to load translations:', error); 
+            }); 
+    }
+    else
+    {
+        /* ReqI6 */ 
+        fetch(new URL('./js/i18n/translations.json', document.baseURI)) 
+            .then(response => response.json()) 
+            .then(data => { 
+        
+                translations = data; 
+        
+                // Retrieve saved language or default to English 
+                const savedLanguage = 
+                    localStorage.getItem('preferredLanguage') || 'en'; 
+        
+                switchLanguage(savedLanguage); 
+            }) 
+            .catch(error => { 
+                console.error('Failed to load translations:', error); 
+            }); 
+    }
+})(); // self-invoking function to run immediately on script load 
     
-            translations = data; 
-    
-            // Retrieve saved language or default to English 
-            const savedLanguage = 
-                localStorage.getItem('preferredLanguage') || 'en'; 
-    
-            switchLanguage(savedLanguage); 
-        }) 
-        .catch(error => { 
-            console.error('Failed to load translations:', error); 
-        }); 
-        })(); // self-invoking function to run immediately on script load 
 
 
 
