@@ -63,28 +63,21 @@ function applyTranslations(locale) {
     console.debug('i18n: translatable elements or language control  — initializing.'); 
  
     // Load translation file 
-
-    const path = new URL("./", window.location.href).pathname;
-    console.log(path);
-
-    if (path == "/CPM_myWeb/" || path == "/CPM_myWeb/pages/")
-    {
-        fetch("/CPM_myWeb/js/i18n/translations.json") 
-            .then(response => response.json()) 
-            .then(data => { 
-        
-                translations = data; 
-        
-                // Retrieve saved language or default to English 
-                const savedLanguage = 
-                    localStorage.getItem('preferredLanguage') || 'en'; 
-        
-                switchLanguage(savedLanguage); 
-            }) 
-            .catch(error => { 
-                console.error('Failed to load translations:', error); 
-            }); 
-    }
+    fetch("/CPM_myWeb/js/i18n/translations.json") 
+        .then(response => response.json()) 
+        .then(data => { 
+    
+            translations = data; 
+    
+            // Retrieve saved language or default to English 
+            const savedLanguage = 
+                localStorage.getItem('preferredLanguage') || 'en'; 
+    
+            switchLanguage(savedLanguage); 
+        }) 
+        .catch(error => { 
+            console.error('Failed to load translations:', error); 
+        }); 
 
 })(); // self-invoking function to run immediately on script load 
     
