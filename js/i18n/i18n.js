@@ -69,7 +69,7 @@ function applyTranslations(locale) {
 
     if (path == "/CPM_myWeb/" || path == "/CPM_myWeb/pages/")
     {
-        fetch(new URL('/CPM_myWeb/js/i18n/translations.json', document.baseURI)) 
+        fetch("/CPM_myWeb/js/i18n/translations.json") 
             .then(response => response.json()) 
             .then(data => { 
         
@@ -85,25 +85,7 @@ function applyTranslations(locale) {
                 console.error('Failed to load translations:', error); 
             }); 
     }
-    else
-    {
-        /* ReqI6 */ 
-        fetch(new URL('./js/i18n/translations.json', document.baseURI)) 
-            .then(response => response.json()) 
-            .then(data => { 
-        
-                translations = data; 
-        
-                // Retrieve saved language or default to English 
-                const savedLanguage = 
-                    localStorage.getItem('preferredLanguage') || 'en'; 
-        
-                switchLanguage(savedLanguage); 
-            }) 
-            .catch(error => { 
-                console.error('Failed to load translations:', error); 
-            }); 
-    }
+
 })(); // self-invoking function to run immediately on script load 
     
 
